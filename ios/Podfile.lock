@@ -19,7 +19,7 @@ PODS:
   - EXJSONUtils (0.12.3)
   - EXManifests (0.13.2):
     - ExpoModulesCore
-  - Expo (50.0.21):
+  - Expo (51.0.39):
     - ExpoModulesCore
   - expo-dev-client (3.3.12):
     - EXManifests
@@ -100,14 +100,16 @@ PODS:
     - ExpoModulesCore
   - ExpoImagePicker (14.7.1):
     - ExpoModulesCore
-  - ExpoKeepAwake (12.8.2):
+  - ExpoKeepAwake (13.0.2):
     - ExpoModulesCore
   - ExpoLocalAuthentication (13.8.0):
     - ExpoModulesCore
-  - ExpoModulesCore (1.11.14):
+  - ExpoModulesCore (1.12.26):
     - glog
+    - hermes-engine
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
+    - React-jsinspector
     - React-NativeModulesApple
     - React-RCTAppDelegate
     - ReactCommon/turbomodule/core
@@ -1519,7 +1521,7 @@ SPEC CHECKSUMS:
   EXImageLoader: ba2506b443b9656e93167c104406a2c265924823
   EXJSONUtils: 5c42959e87be238b045ef37cc5268b16a6c0ad4a
   EXManifests: 429136cffa3ae82d1ba3b60b7243fb186615562e
-  Expo: 1b33cb8ab60cff9abf805ed6020af3d1846e457c
+  Expo: ed0a748eb6be0efd2c3df7f6de3f3158a14464c9
   expo-dev-client: 775a683302570193a7ba71032d0b1b82f6ad1454
   expo-dev-launcher: cb89c3036809decc64c52f4f3b7be23461c4ba0a
   expo-dev-menu: efe7323e7f918e437a02f20063eb2b55c13dfe99
@@ -1530,9 +1532,9 @@ SPEC CHECKSUMS:
   ExpoHaptics: c91902e436f3fb0e07aa19acc118018089fa90de
   ExpoHead: 304de9c15437e3c4c0691587a3bb59ae42ad399f
   ExpoImagePicker: d06822d74f1f0e7fe7cb070ece0fff6e678fa3eb
-  ExpoKeepAwake: 3b8cf8533b9212500565a1e41fb080fc5af29918
+  ExpoKeepAwake: dd02e65d49f1cfd9194640028ae2857e536eb1c9
   ExpoLocalAuthentication: 5967317248e27c53f77c61ff5608d74329b4c41d
-  ExpoModulesCore: 43ebd65adf2c0e6ffb0de24a41f8f7de12829331
+  ExpoModulesCore: df015ef49e9a8faea3b7d26cac5538d35b13dcde
   ExpoSecureStore: 4cec57fd2c40dcff05ce2186c39afc1af39d213c
   ExpoSystemUI: 9d01e3a80cf8ece98e6282dce3e3cbbfb02e1db1
   ExpoWebBrowser: c5d027f58a0b2c1926c86ce3596c94490a639fa2
