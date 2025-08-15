@@ -12,6 +12,8 @@ import { TouchableOpacity, View, ActivityIndicator } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { UserInactivityProvider } from "@/context/UserInactivity";
+import "@/config/i18n";
+import { useTranslation } from "react-i18next";
 
 const queryClient = new QueryClient();
 
